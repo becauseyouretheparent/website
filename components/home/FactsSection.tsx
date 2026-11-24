@@ -39,7 +39,7 @@ export default function FactsSection() {
             />
           ))}
 
-        
+
         <Link
         href="/research"
         className="group flex h-full flex-col justify-center rounded-2xl border border-sky-500/40 bg-sky-950/30 p-6 transition-colors hover:border-sky-400 hover:bg-sky-950/50 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-400"
@@ -58,9 +58,26 @@ export default function FactsSection() {
             the findings mean for your family.
         </p>
 
-        <span className="mt-auto inline-flex items-center gap-2 font-semibold text-sky-400 group-hover:text-sky-300">
+        <span
+            className="
+                relative isolate mt-auto inline-flex w-fit items-center gap-2
+                font-semibold text-sky-400 transition-colors
+                group-hover:text-sky-300
+                before:pointer-events-none before:absolute
+                before:-inset-x-3 before:-inset-y-2
+                before:-z-10 before:rounded-lg
+                before:bg-sky-400/20 before:blur-md
+                before:content-['']
+                motion-safe:before:animate-pulse
+            "
+        >
             Explore the Research
-            <span aria-hidden="true">→</span>
+            <span
+                aria-hidden="true"
+                className="transition-transform group-hover:translate-x-1"
+            >
+                →
+            </span>
         </span>
         </Link>
 

@@ -30,7 +30,7 @@ export default function SiteFooter() {
             className="flex flex-col gap-4 text-sm font-medium text-slate-300 sm:flex-row sm:gap-8"
           >
             <Link
-              href="/#research"
+              href="/research"
               className="transition-colors hover:text-sky-400"
             >
               Research
