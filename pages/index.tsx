@@ -10,10 +10,43 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Because You&rsquo;re The Parent</title>
+        <title>Because You&apos;re the Parent</title>
+
         <meta
           name="description"
-          content="Quick, eye-opening facts and tools to help parents understand the risks of kids and phones, social media, and online games."
+          content="Research and practical resources to help parents navigate smartphones, social media, online gaming, and safer device alternatives."
+        />
+
+        <meta
+          property="og:title"
+          content="Their Childhood. Your Decision."
+        />
+        <meta
+          property="og:description"
+          content="Research and practical resources for parents navigating the digital world."
+        />
+        <meta
+          property="og:image"
+          content="https://www.becauseyouretheparent.com/bytpShield.png"
+        />
+        <meta
+          property="og:image:alt"
+          content="Because You're the Parent — Their Childhood. Your Decision."
+        />
+        <meta
+          property="og:url"
+          content="https://www.becauseyouretheparent.com/"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:site_name"
+          content="Because You're the Parent"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://www.becauseyouretheparent.com/bytpShield.png"
         />
       </Head>
 
