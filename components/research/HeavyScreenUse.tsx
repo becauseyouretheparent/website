@@ -45,9 +45,11 @@ export default function HeavyScreenUse() {
         </p>
 
         <figure className="mt-10 max-w-4xl rounded-2xl border border-slate-700 bg-slate-900/70 p-6 sm:p-8">
+
           <figcaption className="mb-8 text-sm text-slate-400">
-            Distribution of daily entertainment screen use
-            within each age group.
+            Distribution of self-reported entertainment
+            screen use on the day before the survey,
+            by age group.
           </figcaption>
 
           <div className="space-y-8">

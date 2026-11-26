@@ -8,7 +8,7 @@ const platforms = [
       "Restrict chat and communication where supported.",
       "Review screen-time limits and spending controls.",
     ],
-    note: "Available controls vary by age and account verification.",
+    note: "At age 13, children take control of screen-time limits and user blocking, while parental spending limits end. Parents retain some chat and game controls through age 15, with more limited oversight at ages 16–17.",
     url: "https://en.help.roblox.com/hc/en-us/articles/30428310121620-Parental-Controls-Overview",
   },
   {
@@ -20,7 +20,7 @@ const platforms = [
       "Review access to public servers and Minecraft Realms.",
     ],
     note: "Minecraft uses Microsoft account controls even on non-Xbox devices. Additional device controls may apply.",
-    url: "https://help.minecraft.net/hc/en-us/articles/4408968616077-Set-Up-Microsoft-Family-Accounts-for-Minecraft-Multiplayer-Ga",
+    url: "https://www.minecraft.net/en-us/article/parents--guide-minecraft",
   },
   {
     name: "Snapchat",

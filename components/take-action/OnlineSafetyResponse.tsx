@@ -68,6 +68,20 @@ export default function OnlineSafetyResponse() {
           help you respond and find professional support.
         </p>
 
+
+        <div className="mt-8 max-w-3xl rounded-xl border border-amber-400/40 bg-amber-400/10 p-5 sm:p-6">
+          <h3 className="text-lg font-semibold text-amber-200">
+            Need immediate help?
+          </h3>
+
+          <p className="mt-3 leading-7 text-slate-200">
+            If someone is in immediate danger in the U.S.,
+            call <strong className="text-white">911</strong>.
+            For emotional distress or suicidal thoughts,
+            call or text <strong className="text-white">988</strong> for crisis support.
+          </p>
+        </div>
+
         <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2">
           {steps.map((step) => (
             <article
@@ -115,12 +129,6 @@ export default function OnlineSafetyResponse() {
             use the service.
           </p>
         </div>
-
-        <p className="mt-8 max-w-4xl text-sm leading-7 text-slate-300">
-          If someone is in immediate danger in the U.S.,
-          call 911. For emotional distress or suicidal
-          thoughts, call or text 988 for crisis support.
-        </p>
       </div>
     </section>
   );

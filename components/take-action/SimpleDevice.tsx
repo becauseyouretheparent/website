@@ -56,7 +56,7 @@ const watches = [
     description:
       "Kid-focused smartwatch with calling, messaging, and GPS.",
     note: "No web browser, app store, or games.",
-    location: "Real-time parental GPS tracking and location history.",
+    location: "Real-time parental location tracking. Route history is available when Tracking Mode is enabled, but not in Power Saving Mode.",
     url: "https://www.myticktalk.com/products/ticktalk-5",
   },
 ] as const;

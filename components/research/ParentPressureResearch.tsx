@@ -1,20 +1,20 @@
 const findings = [
   {
-    statistic: "39%",
+    statistic: "32%",
     title: "Smartphone regret and peer pressure",
     description:
-      "Among parents who had given their child a smartphone, 39% said they wished they hadn't but felt pressured because so many of their child's friends already had one.",
+      "Among all surveyed parents, 32% agreed they wished their child did not own a smartphone but felt they had to provide one because many of their child's friends already had one.",
   },
   {
-    statistic: "54%",
+    statistic: "41%",
     title: "Pressure to allow social media",
     description:
-      "Among parents who had allowed their children to use social media, 54% reported feeling pressured because other families had already done so.",
+      "Among all surveyed parents, 41% agreed they wished their child were not on social media but felt they had to give them access because their child's friends already had accounts.",
   },
 ] as const;
 
 const source =
-  "https://theharrispoll.com/articles/what-parents-think-about-their-kids-social-media-and-smartphone-usage/";
+  "https://theharrispoll.com/wp-content/uploads/2025/06/Total.pdf";
 
 export default function ParentPressureResearch() {
   return (
@@ -79,13 +79,17 @@ export default function ParentPressureResearch() {
         </div>
 
         <div className="mt-8 max-w-4xl text-sm leading-6 text-slate-400">
+
           <p>
             Source: The Harris Poll, February 21–27,
             2025. Survey of 1,013 U.S. parents with
-            children under 18. Percentages refer to
-            relevant parent subgroups, not all parents.
-            Research conducted in collaboration with
-            Jonathan Haidt&apos;s research team.
+            children under 18. Percentages reflect
+            all surveyed parents, including those
+            who selected &quot;not applicable.&quot;
+            See pages 50–51 of the original survey
+            tables. Research conducted in
+            collaboration with Jonathan Haidt&apos;s
+            research team.
           </p>
 
           <a
@@ -94,7 +98,7 @@ export default function ParentPressureResearch() {
             rel="noopener noreferrer"
             className="mt-4 inline-block font-medium text-sky-400 hover:underline"
           >
-            View original research ↗
+            View original survey data ↗
           </a>
         </div>
       </div>

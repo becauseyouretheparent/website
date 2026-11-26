@@ -37,9 +37,9 @@ export const facts: Fact[] = [
     statistic: "10+ hrs",
     headline: "Heavy screen use is common among teens",
     description:
-      "43% of teens spend at least 10 hours a day using entertainment screen media.",
+      "43% of surveyed U.S. teens ages 13–17 reported spending at least 10 hours using entertainment screens the day before their survey.",
     context:
-      "Common Sense Media, 2026. Includes entertainment across devices, not schoolwork.",
+      "Common Sense Media, 2026; self-reported entertainment screen use, excluding schoolwork.",
     sources: [
       {
         name: "Common Sense Media — 2026 Census",
