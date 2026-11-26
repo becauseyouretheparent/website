@@ -37,7 +37,7 @@ export default function SiteFooter() {
             </Link>
 
             <Link
-              href="/#take-action"
+              href="/take-action"
               className="transition-colors hover:text-sky-400"
             >
               Take Action

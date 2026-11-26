@@ -1,16 +1,15 @@
-
 export default function Hero() {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="relative overflow-hidden border-b border-white/10"
+      className="relative overflow-hidden border-b border-white/10 px-6"
     >
       <div
         aria-hidden="true"
         className="pointer-events-none absolute -right-32 top-8 h-80 w-80 rounded-full bg-sky-500/10 blur-3xl"
       />
 
-      <div className="relative mx-auto grid max-w-6xl gap-8 px-6 py-12 sm:py-16 lg:grid-cols-2 lg:items-center lg:gap-12 lg:py-24">
+      <div className="relative mx-auto grid max-w-6xl gap-8 py-12 sm:py-16 lg:grid-cols-2 lg:items-center lg:gap-12 lg:py-24">
         <div>
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-sky-400">
             Parenting in a digital world
@@ -35,11 +34,21 @@ export default function Hero() {
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">
+
             <a
               href="#facts"
-              className="rounded-lg bg-sky-400 px-6 py-3 font-semibold text-slate-950 transition-colors hover:bg-sky-300"
+              className="
+                inline-flex items-center justify-center gap-2
+                rounded-lg bg-sky-400 px-6 py-3
+                font-semibold text-slate-950 transition-colors
+                hover:bg-sky-300
+                motion-safe:animate-[cta-breathe_3s_ease-in-out_infinite]
+                focus-visible:outline-2 focus-visible:outline-offset-4
+                focus-visible:outline-sky-400
+              "
             >
               Explore the Facts
+              <span aria-hidden="true">↓</span>
             </a>
 
             <a
